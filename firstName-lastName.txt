@@ -1,39 +1,38 @@
 CodePen Project: https://codepen.io/TN2018/pen/vYYMNPe
 
-1. What is Semantic HTML? 
-2. What is HTML used for? 
-3. What is an attribute and where do we put it? 
-4. What is the h1 tag used for? How many times should I use it on a page?
-5. Name two tags that have required attributes
-6. What do we put in the head of our HTML document? 
-7. What is an id? 
-8. What elements can I add an id to? 
-9. How many times can I use the same id on a page? 
-10. What is a class? 
-11. What elements can I add a class to? 
-12. How many times can I use the same class on a page? 
-13. How do I get my link to open in a new tab?
-14. What is the alt attribute used for? 
-15. How do I reference an id?
-16. What is the difference between a section and a div
-17. What is CSS used for? 
-18. How to we select an element? Example - every h2 on the page
-19. What is the difference between a class and an id? - Give me an example of when I might use each one
-20. How do we select classes in CSS?
-21. How do we select a p element with a single class of “human””?
-22. What is a parent child selector? When would this be useful? 
-23. How do you select all links within a div with the class of sidebar?
-24. What is a pseudo selector?
-25. What do we use the change the spacing between lines?
-26. What do we use to change the spacing between letters?
-27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-28. How do I add a 1px border around my div that is dotted and black?
-29. How do I select everything on the page? 
-30. How do I write a comment in CSS?
-31. How do I find out what file I am in, when I am using the command line? 
-32. Using the command line - how do I see a list of files/folders in my current folder?
-33. How do I remove a file via the command line? Why do I have to be careful with this? 
-34. Why should I use version control? 
-35. How often should I commit to github?
-36. What is the command we would use to push our repo up to github? 
-37. Walk me through Lambda's git flow.
+1. What is Semantic HTML? Semantic HTML is the use of semantic tags for improved readability and accessibility. 
+2. What is HTML used for? HTML is a markup language for documents designed to be displayed in a web browser.
+3. What is an attribute and where do we put it? An attribute is some added information, sometimes neccesary for the tag to function. It goes in the opening tag (<img src='website.png'>)
+4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is the largest header size, it can be used as many timea as needed on a page.
+5. Name two tags that have required attributes - img & script
+6. What do we put in the head of our HTML document? - title
+7. What is an id? - A selector that is given to a single element.
+8. What elements can I add an id to? - Any, but only one element.
+9. How many times can I use the same id on a page? - Once. 
+10. What is a class? - A class is a selector that can be used multiple times on a page to group elements together.
+11. What elements can I add a class to? - All.
+12. How many times can I use the same class on a page? - As many as needed.
+13. How do I get my link to open in a new tab? -  add target="_blank" to your tag
+14. What is the alt attribute used for? - It's an alternate way of displaying information(text), used for images, etc.
+15. How do I reference an id? - place a # before the id name (example: #my-id)
+16. What is the difference between a section and a div - A section is a semantic tag that is more accessible and SEO friendly. A div is a non-semantic grouping tag.
+17. What is CSS used for? - CSS is used to style documents.
+18. How to we select an element? Example, every h2 on the page - ( h2 {style here} )
+19. What is the difference between a class and an id? Give me an example of when I might use each one - A class can be used on an infinite number of elements, where an id is used to select a specific element. I might make a class called 'center' and put "text-align: center;". Now I can add my center class to any element I need centered. I have a calendar that I need to select, but there's 3 calendars on the page and I just want to easily select it, so I'll add an id of 'calendar' to it. Now I can do #calendar { add my style here }.
+20. How do we select classes in CSS? Add a period before the name of the class.
+21. How do we select a p element with a single class of “human””? - .human
+22. What is a parent child selector? When would this be useful? - A parent child selector selects all elements that are a direct child of the parent element. If you have a div with a lot of content that you want to easily select.
+23. How do you select all links within a div with the class of sidebar? - .sidebar a
+24. What is a pseudo selector? A pseudo selector is selecting an element in a specific state (hover, active, clicked)
+25. What do we use the change the spacing between lines? -  line-spacing
+26. What do we use to change the spacing between letters? - letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? - CSS (text-transform)
+28. How do I add a 1px border around my div that is dotted and black? - CSS (border: 1px dotted black;)
+29. How do I select everything on the page? - *
+30. How do I write a comment in CSS? - //this is a css comment
+31. How do I find out what file I am in, when I am using the command line? - Enter in command line: pwd
+32. Using the command line, how do I see a list of files/folders in my current folder? - Enter in command line: ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? - rm command, it's very dangerous and can delete a directory in one command.
+34. Why should I use version control? - It helps multiple people collaborate on maybe a personal or professional manner.
+35. How often should I commit to github? - Every little feature you add, ffter confirming your addition doesn't break the site or cause issues.
+36. What is the command we would use to push our repo up to github? git push repo branch
